@@ -190,3 +190,33 @@ BUSCAR PALABRAS DENTRO DE LOS ARCHIVOS
 `$ git grep -c la-palabra:` Muestra cuantas veces se ha usado.
 
 `$ git log -S "la palabra":` Muestra la palabra dentro de la historia de los commits
+
+
+
+VER RECURSOS COLABORATIVOS
+----------------------------------------------------------------------------------
+`$ git shortlog` : Muestra cuantos commits han hecho los miembros del equipo
+
+`$ git shortog -sn:`  Muestra el numero de commits y quien ha hecho más commits
+
+`$ git shortlog -sn --all --no-merges:` Muestra commits pero sin los merges
+
+`$ git blame archivo.txt:` Muestra quien hizo que, linea por linea
+
+`$ git blame -c archivo.txt`: Muestra de mejor manera el comando anterior
+
+`$ git blame archivo.txt -L35,50`: Muestra solo los cambios desde la linea 35 hasta la 50 y muestra quien hizo que.
+
+`$ git blame archivo.txt -L35,50 -c`: Muestra mejor lo anterior
+
+##### CREA TU COMANDO:
+`$ git config --global alias.nuevocomando "El comando a reemplazar"`
+
+ejem: **$ git config --global alias.stats "shortlog -sn --all --no-merge"**
+
+`$ git stats`  (Muestra el comando anterior)
+
+----------------------------------------------------------------
+EDITOR DE REAMDE
+----------------------------------------------------------------
+https://pandao.github.io/editor.md/en.html
