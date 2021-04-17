@@ -35,11 +35,13 @@ Puedes parcticar los comandos aqui: http://onlywei.github.io/explain-git-with-d3
 ### Editor VIM
 Podemos abrir un editor en la terminal usando.
 `$ vim miArchivo.html`
-ESC, i //Para escribir en VIM.
-ESC, shift + zz // Salir
-:wq // Guardar y salir.
-:q //Salir sin guardar.
-:q! //Salir sin guardar cambios de forma hard.
+
+- ESC, i //Para escribir en VIM.
+
+- ESC, shift + zz // Salir
+- :wq // Guardar y salir.
+- :q //Salir sin guardar.
+- :q! //Salir sin guardar cambios de forma hard.
 
 #### PARA COMPARAR VERSIONES:
 
@@ -217,6 +219,6 @@ ejem: **$ git config --global alias.stats "shortlog -sn --all --no-merge"**
 `$ git stats`  (Muestra el comando anterior)
 
 ----------------------------------------------------------------
-EDITOR DE REAMDE
+EDITOR DE README
 ----------------------------------------------------------------
 https://pandao.github.io/editor.md/en.html
