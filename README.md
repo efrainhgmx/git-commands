@@ -7,7 +7,9 @@ Puedes parcticar los comandos aqui: http://onlywei.github.io/explain-git-with-d3
 
 ### CONFIGURAR GIT
 ----------------
-`$ git config` // ver la configuración actual de git
+`$ git config` // Nos permite ver los comandos que podemos usar para configurar.
+
+`$ git config --list `  //Ver la configuración actual de git.
 
 `$ git config --global  user.email "tu@email.com"` //Configurar tu email
 
