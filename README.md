@@ -76,8 +76,8 @@ O, un poco más seguro, con el argumento --soft, que mantiene allí los archivos
 `$ git fetch origin main` Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).
 
 `$ git merge ` También usamos el comando git fetch con servidores remotos. Lo necesitamos para combinar los últimos cambios del servidor remoto y nuestro directorio de trabajo.
---> git checkout rama a donde se hace quiere hacer el merge.
-    git merge rama donde estan  los cambios.
+--> git checkout rama a donde se hace quiere hacer el merge. Ejemplo la rama principal.
+    git merge rama donde estan  los cambios. Ejemplo la rama de desarrollo.
 	
 	`$git chekout main`
 	`$git merge prueba`
