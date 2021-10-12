@@ -13,7 +13,7 @@ Puedes parcticar los comandos aqui: http://onlywei.github.io/explain-git-with-d3
 
 `$ git config --global  user.email "tu@email.com"` //Configurar tu email
 
-`$ git --global user.name "Tu Nombre"` //Configura tu nombre de usuario
+`$ git config --global user.name "Tu Nombre"` //Configura tu nombre de usuario
 
 ### Comandos básicos de git
 `$ git init`  //Inicia Git dentro de la carpeta raíz de nuestro proyecto
