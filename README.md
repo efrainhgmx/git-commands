@@ -184,6 +184,15 @@ RECUPERAR ARCHIVOS
 
 `$ git reset --soft` Resetea todo pero mantiene los cambios en staging que no hayan tenido un commit
 
+------------------------------------------------------------
+DESHACER O ABORTAR UN MERGE
+------------------------------------------------------------
+
+`$ git merge --abort` deshace el ultimo merge realizado y te posiciona en el ultimo commit.
+`$ git checkout -- .` Te lleva al ultimo commit hecho de la rama.
+
+**NOTA: git merge --abort, no deshace el cambio hecho por un git pull o git fetch**
+
 
 BUSCAR PALABRAS DENTRO DE LOS ARCHIVOS
 ----------------------------------------------------------------
