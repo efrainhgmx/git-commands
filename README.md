@@ -119,6 +119,8 @@ SIEMPRE DESDE EL HOME ~ O CON cd
 
 `$ eval (ssh-agent -s)`
 
+**Nota: Revisa la sintaxis del comando anterior en caso de que te de un error al teclearlo **
+
 //Añadir tu llave SSH a este servidor
 `$ ssh-add ruta-donde-guardaste-tu-llave-privada ~/.ssh/id_rsa`
 
