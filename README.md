@@ -119,10 +119,14 @@ SIEMPRE DESDE EL HOME ~ O CON cd
 
 `$ eval (ssh-agent -s)`
 
-**Nota: Revisa la sintaxis del comando anterior en caso de que te de un error al teclearlo **
+**Nota: Revisa la sintaxis del comando anterior en caso de que te de un error al teclearlo**
 
 //Añadir tu llave SSH a este servidor
-`$ ssh-add ruta-donde-guardaste-tu-llave-privada ~/.ssh/id_rsa`
+`$ ssh-add ruta-donde-guardaste-tu-llave-privada`
+
+**Ejemplo:** `$ ssh-add ~/.ssh/id_rsa`
+
+Aquí debes configurar tu llave privada no la publica .pub
 
 SSH DE GITHUB
 `$git remote set-url origin url-ssh-del-repositorio`
