@@ -117,7 +117,7 @@ SIEMPRE DESDE EL HOME ~ O CON cd
 
 //Terminar de configurar nuestro sistema 
 
-`$ eval (ssh-agent -s)`
+`$ eval "(ssh-agent -s)"`
 
 **Nota: Revisa la sintaxis del comando anterior en caso de que te de un error al teclearlo**
 
