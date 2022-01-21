@@ -115,7 +115,7 @@ SIEMPRE DESDE EL HOME ~ O CON cd
 
 `$ ssh-keygen -t rsa -b 4096 -C "tu@email.com"`
 
-//Terminar de configurar nuestro sistema 
+//Terminar de configurar nuestro sistema, se escribe tal cual con comillas.
 
 `$ eval "(ssh-agent -s)"`
 
