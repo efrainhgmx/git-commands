@@ -24,7 +24,9 @@ Puedes parcticar los comandos aqui: http://onlywei.github.io/explain-git-with-d3
 
 `$ git add _myfile.txt _` //Agrega el archivo en Staging
 
-`$ git add .  `// Sube todo los archivos de la carpeta actual
+`$ git add .  `// Añade todos los archivos de la carpeta actual
+
+`$ git add -A ` //  Añade todos los archivos al igual que **git add .**
 
 `$ git rm -- cached _myfile.txt_`  // Elimina el archivo de la RAM sin eliminarlo de la carpeta
 
