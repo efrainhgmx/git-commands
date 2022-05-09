@@ -68,6 +68,8 @@ O, un poco más seguro, con el argumento --soft, que mantiene allí los archivos
 
 `$ git checkout nombre-de-la-rama` // sirve para movernos entre ramas.
 
+`$ git checkout -B nombre-de-la-nueva-rama` // Crea una rama nueva y hace el cambio a esa misma rama 
+
 `$ git commit -am "mensaje"` // hace commit de un archivo sin necesidad de hacer git add SOLO FUNCIONA CON ARCHIVOS QUE NOS SON NUEVOS
 
 
