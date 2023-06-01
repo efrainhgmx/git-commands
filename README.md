@@ -2,7 +2,7 @@
 
 Git es el sistema de control de versiones creado por Linus Torvals, este software permite a los desarrolladores trabajar en un solo proyecto sin afectar el flujo de trabajo. Trabaja mediante ramas y **GIT nunca olvida** nada lo cual nos permite regresar a ver versiones anteriores en caso de que algo falle.
 
-Puedes parcticar los comandos aqui: http://onlywei.github.io/explain-git-with-d3/#fetch
+Puedes practicar los comandos aqui: http://onlywei.github.io/explain-git-with-d3/#fetch
 
 
 ### CONFIGURAR GIT
